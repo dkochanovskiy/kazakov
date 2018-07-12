@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                logo
+                <a href="{{ route('home') }}">logo</a>
             </div>
             <div class="col-md-offset-8 col-md-2">
                 <div class="row">

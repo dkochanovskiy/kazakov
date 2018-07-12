@@ -1,7 +1,11 @@
 @extends('template.template')
 @section('content')
     <div class="col-md-12">
-        <div class="col-md-3" style="">
+        <h1 class="text-center">Товары для пескографики</h1>
+    </div>
+    <hr class="col-md-12">
+    <div class="col-md-12">
+        <div class="col-md-3">
             <div class="wrapper">
                 <div id="drawingsWithSand" class="carousel slide" data-ride="carousel">
                     <!--Показатели-->
@@ -52,13 +56,9 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12" style="">
-                                <div class="row">
-                                    <div class="col-md-offset-5 col-md-1" style="font-size: 22px;">
-                                        <h3 class="center-block">
-                                            Столы
-                                        </h3>
-                                    </div>
-                                </div>
+                                <h3 class="text-center">
+                                    Столы для пескографики
+                                </h3>
                                 <div class="row">
                                     <a href="{{ route('tables') }}">
                                         <div class="col-md-offset-1 col-md-10 type-of-goods">
@@ -72,13 +72,9 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-12" style="">
-                                <div class="row">
-                                    <div class="col-md-offset-4 col-md-1" style="font-size: 22px;">
-                                        <h3 class="center-block">
-                                            Аксессуары
-                                        </h3>
-                                    </div>
-                                </div>
+                                <h3 class="text-center">
+                                    Аксессуары для пескографики
+                                </h3>
                                 <div class="row">
                                     <a href="{{ route('accessories') }}">
                                         <div class="col-md-offset-1 col-md-10 type-of-goods">
@@ -92,13 +88,9 @@
                     <div class="col-md-12" style="border: 1px solid #c0c0c0; border-radius: 5px; margin: 30px 0 0 0">
                         <div class="row">
                             <div class="col-md-12" style="/*height:537px;*/ margin-top: 30px;">
-                                <div class="row">
-                                    <div class="col-md-offset-5 col-md-1" style="font-size: 22px;">
-                                        <h3>
-                                            Отзывы
-                                        </h3>
-                                    </div>
-                                </div>
+                                <h3 class="text-center">
+                                    Отзывы покупателей
+                                </h3>
                                 <form method="post" class="col-md-12 form-horizontal" role="form">
                                     <input name="_token" type="hidden" value="{{ csrf_token() }}" />
                                     <div class="form-group">
@@ -153,13 +145,9 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-offset-1 col-md-11" style="">
-                                <div class="row">
-                                    <div class="col-md-offset-3 col-md-1" style="font-size: 22px;">
-                                        <h3>
-                                            Статьи
-                                        </h3>
-                                    </div>
-                                </div>
+                                <h3 class="text-center">
+                                    Статьи о пескографике
+                                </h3>
                                 <div class="col-md-12" style="height:653px; border: 1px solid #c0c0c0; border-radius: 5px; overflow:auto;">
                                     <div class="row">
                                         <div class="col-md-12" style="color: #449d44; font-size: 18px; padding: 10px 0 10px 15px;">
