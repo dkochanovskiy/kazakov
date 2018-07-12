@@ -60,7 +60,7 @@
                                     Столы для пескографики
                                 </h3>
                                 <div class="row">
-                                    <a href="{{ route('tables') }}">
+                                    <a href="{{ route('stoly-dlya-peskografiki') }}">
                                         <div class="col-md-offset-1 col-md-10 type-of-goods">
                                             <img class="center-block" src="{{ asset('images/table.jpg') }}" alt="Стол для рисования песком">
                                         </div>
@@ -76,7 +76,7 @@
                                     Аксессуары для пескографики
                                 </h3>
                                 <div class="row">
-                                    <a href="{{ route('accessories') }}">
+                                    <a href="{{ route('aksessuary-dlya-peskografiki') }}">
                                         <div class="col-md-offset-1 col-md-10 type-of-goods">
                                             <img class="center-block" src="{{ asset('images/accessories.jpg') }}" alt="Аксессуары для рисования песком">
                                         </div>

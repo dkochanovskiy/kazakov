@@ -58,16 +58,6 @@
                                         </b>
                                     </p>
                                 </div>
-                                <div class="col-md-5">
-                                    <p>
-                                        Цена (с НДС)
-                                    </p>
-                                </div>
-                                <div class="col-md-offset-1 col-md-6">
-                                    <b>
-                                        5500 &#8381;
-                                    </b>
-                                </div>
                                 <hr class="col-md-12">
                                 <div class="col-md-5">
                                     <p>
@@ -116,29 +106,59 @@
                             <input name="_token" type="hidden" value="{{ csrf_token() }}" />
                             <div class="form-group">
                                 <div class="dropdown">
-                                    <label class="col-md-3 control-label" for="prepayment">Доступные размеры</label>
-                                    <div class="col-md-9">
-                                        <button class="btn btn-default dropdown-toggle" type="button" id="prepayment" data-toggle="dropdown">
+                                    <label class="col-md-6 control-label" for="availableSizes" style="font-weight: 500!important;">Доступные размеры</label>
+                                    <div class="col-md-1">
+                                        <button class="btn btn-default dropdown-toggle" type="button" id="availableSizes" data-toggle="dropdown">
                                             1 x 1
                                             <span class="caret"></span>
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li role="presentation">
-                                                <a role="menuitem" tabindex="-1" href="javascript:DropDownList('prepayment', '1 месяц', 'inputPrepayment')">1 x 1</a>
+                                                <a role="menuitem" tabindex="-1" href="javascript:DropDownList('availableSizes', '1 x 1', 'outputAvailableSizes')">
+                                                    <p>
+                                                        1 x 1
+                                                    </p>
+                                                </a>
                                             </li>
-                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:DropDownList('prepayment', '2 месяца', 'inputPrepayment')">2 x 2</a></li>
-                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="javascript:DropDownList('prepayment', '3 месяца', 'inputPrepayment')">3 x 3</a></li>
+                                            <li role="presentation">
+                                                <a role="menuitem" tabindex="-1" href="javascript:DropDownList('availableSizes', '2 x 2', 'outputAvailableSizes')">
+                                                    <p>
+                                                        2 x 2
+                                                    </p>
+                                                </a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a role="menuitem" tabindex="-1" href="javascript:DropDownList('availableSizes', '3 x 3', 'outputAvailableSizes')">
+                                                    <p>
+                                                        3 x 3
+                                                    </p>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <input type="hidden" id="inputPrepayment" name="inputPrepayment" value="1 x 1">
+                            <input type="hidden" id="outputAvailableSizes" name="outputAvailableSizes" value="1 x 1">
+                            <div class="col-md-6 control-label">
+                                Цена (с НДС)
+                            </div>
+                            <div class="col-md-2 control-label" id="price">
+                                <b>
+                                    11 &#8381;
+                                </b>
+                            </div>
+                            <input type="hidden" id="outputPrice" name="outputPrice" value="1 x 1">
                             <div class="form-group">
-                                <div class="col-md-1" style="margin: 10px 0 0 0;">
+                                <div class="col-md-12" style="margin: 30px 0 0 0;">
                                     <button type="submit" class="btn btn-success">Добавить в корзину</button>
                                 </div>
                             </div>
                         </form>
+                        <div class="col-md-offset-2 col-md-10">
+                            <a href="{{ route('korzina-s-pokupkami') }}">
+                                <button type="button" class="btn btn-danger">Перейти в корзину</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 {{--<div class="col-md-4">--}}

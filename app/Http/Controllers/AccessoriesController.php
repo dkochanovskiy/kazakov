@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AccessoriesController extends Controller
 {
     public function index(){
-        return view('accessories');
+        return view('aksessuary-dlya-peskografiki');
     }
 }

@@ -48,10 +48,10 @@
                                     <a href="{{ route('home') }}">Главная</a>
                                 </div>
                                 <div class="col-md-12">
-                                    <a href="{{ route('tables') }}">Столы</a>
+                                    <a href="{{ route('stoly-dlya-peskografiki') }}">Столы для пескографики</a>
                                 </div>
                                 <div class="col-md-12">
-                                    <a href="{{ route('accessories') }}">Аксессуары</a>
+                                    <a href="{{ route('aksessuary-dlya-peskografiki') }}">Аксессуары для пескографики</a>
                                 </div>
                             </div>
                         </div>
