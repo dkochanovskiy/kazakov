@@ -18,13 +18,13 @@
                     <!--Обертка для слайдов-->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="{{ asset('images/slider-1.jpg') }}" alt="Рисунок песком">
+                            <img src="{{ asset('images/slider/1.jpg') }}" alt="Рисунок песком">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('images/slider-1.jpg') }}" alt="Рисунок песком">
+                            <img src="{{ asset('images/slider/2.jpg') }}" alt="Рисунок песком">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('images/slider-1.jpg') }}" alt="Рисунок песком">
+                            <img src="{{ asset('images/slider/3.jpg') }}" alt="Рисунок песком">
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12" style="border: 1px solid #c0c0c0; border-radius: 5px; margin: 30px 0 0 0">
+                    <div class="col-md-12" style="margin: 30px 0 0 0">
                         <div class="row">
                             <div class="col-md-12" style="/*height:537px;*/ margin-top: 30px;">
                                 <h3 class="text-center">
@@ -103,7 +103,13 @@
                                     </div>
                                 </form>
                                 {{--<hr class="col-md-11">--}}
-                                <div class="col-md-12" style="margin: 30px 0 0 0; height:290px; border: 1px solid #c0c0c0; border-radius: 5px; overflow:auto;">
+                                <div class="col-md-12" style="
+                                margin: 30px 0 0 0;
+                                height:290px;
+                                border-top: 1px solid #c0c0c0;
+                                border-right: 1px solid #c0c0c0;
+                                border-left: 1px solid #c0c0c0;
+                                overflow:auto;">
                                     <div class="row">
                                         <div class="col-md-12" style="color: #449d44; font-size: 18px;">
                                             Светлана, 15.03.2017
@@ -144,11 +150,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-offset-1 col-md-11" style="">
+                            <div class="col-md-offset-1 col-md-11">
                                 <h3 class="text-center">
                                     Статьи о пескографике
                                 </h3>
-                                <div class="col-md-12" style="height:653px; border: 1px solid #c0c0c0; border-radius: 5px; overflow:auto;">
+                                <div class="col-md-12" style="height:700px; border: 1px solid #c0c0c0; overflow:auto;">
                                     <div class="row">
                                         <div class="col-md-12" style="color: #449d44; font-size: 18px; padding: 10px 0 10px 15px;">
                                             Рисунки песком

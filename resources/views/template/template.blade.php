@@ -25,9 +25,18 @@
             </div>
             <div class="col-md-offset-8 col-md-2">
                 <div class="row">
-                    <div class="col-md-12">Контакт</div>
-                    <div class="col-md-12">Телефон</div>
-                    <div class="col-md-12">Социальные сети</div>
+                    <div class="col-md-12">
+                        +7 (987) 570-02-02
+                    </div>
+                    <div class="col-md-12">
+                        youtube.com/channel/UCSGiNQvlrSaGjOnIeNnhQ4g
+                    </div>
+                    <div class="col-md-12">
+                        vk.com/pesochnoe_show13
+                    </div>
+                    <div class="col-md-12">
+                        pesochnoe_show13
+                    </div>
                 </div>
             </div>
             <hr class="col-md-12">
@@ -58,13 +67,16 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-12">
-                                    Контакт
+                                    +7 (987) 570-02-02
                                 </div>
                                 <div class="col-md-12">
-                                    Телефон
+                                    youtube.com/channel/UCSGiNQvlrSaGjOnIeNnhQ4g
                                 </div>
                                 <div class="col-md-12">
-                                    Социальные сети
+                                    vk.com/pesochnoe_show13
+                                </div>
+                                <div class="col-md-12">
+                                    pesochnoe_show13
                                 </div>
                             </div>
                         </div>
